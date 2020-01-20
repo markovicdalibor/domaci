@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+.zadatak {
+    width: 90vw;
+    margin: 2rem auto -1px auto;
+    padding: 2rem;
+    height: auto;
+    border: 1px solid blue;
+    box-shadow: 5px 10px rgba(31, 2, 85, 0.733);
+}
+
+.zadatak>span {
+    display: none;
+    width: 10px;
+    padding: 0.4rem;
+    border-radius: 5px;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    border: 1px solid blue;
+    box-shadow: 2px 4px rgba(31, 2, 85, 0.733);
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin: 1rem;
+    border: 1px solid rgba(31, 2, 85, 0.733);
+    cursor: pointer;
+}
+
+.codebtn {
+    float: right;
+}
+
+.kodbox {
+    margin: 1px auto;
+    width: 90vw;
+    height: 0;
+    background-color: aquamarine;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.active {
+    padding: 2rem 0;
+    margin: 1px auto;
+    width: 90vw;
+    height: auto;
+    background-color: aquamarine;
+}
